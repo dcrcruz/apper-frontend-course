@@ -1,0 +1,266 @@
+/* solid black borders are used to distinguish partitions in the webpage */
+/* red borders are to highlight the elements inside the partition */
+/* in case of issues in viewing, scale down zoom to 75% of browser */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.header .text {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    border: 1px solid red;
+}
+
+.header .dropdown {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    border: 1px solid red;
+}
+
+.user-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.user-menu .menu-buttons {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    border: 1px solid red;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.categories .adidas-logo {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    display: flex;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.categories .filter {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.categories .member {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.categories .member .search{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.categories .member .icons{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 557.625px;
+    border: 3px solid black;
+}
+
+.banner .image-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 1px;
+    width: 100%;
+    height: 437.625px;
+}
+
+.image-text .text-header {
+    font-size: 40px;
+    font-weight: 700px;
+    font-style: italic;
+    font-family: AdineuePRO, Helvetica;
+    text-align: left;
+    padding: 5px;
+}
+
+.image-text .text-desc {
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    font-family: AdineuePRO, Helvetica;
+    text-align: left;
+    padding: 5px;
+}
+
+.image-text .text-btn {
+    font-size: 14px;
+    font-weight: 700px;
+    font-style: normal;
+    font-family: AdineuePRO, Helvetica;
+    text-align: left;
+    padding: 5px;
+}
+
+.banner .image-whitespace{
+    position: relative;
+    display: flex;
+    border: 1px solid red;
+    padding: 1px;
+    width: 100%;
+    height: 437.625px;
+}
+
+.banner .image-button{
+    position: absolute;
+    align-items: center;
+    top: 497.625px;
+    border: 1px solid red;
+    width: 1261.33px;
+    height: 59px;
+}
+
+.shoes-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.shoes-banner .shoes-filter {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.shoes-banner .shoes-all {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.whitespace1 {
+    display: flex;
+    width: 1261.33px;
+    height: 60.25px;
+    border: 1px solid black;
+}
+
+.shoes-carousel {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;  
+    width: 100%;
+    height: 376px;
+    border: 1px solid black;
+}
+
+.whitespace2 {
+    display: flex;
+    width: 1261.33px;
+    height: 60.25px;
+    border: 1px solid black;
+}
+
+.shoes-carousel .shoe {
+    height: 376px;
+    width: 280px; 
+    border: 1px solid red;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.shoe-img {
+    position: relative;
+    display: flex;
+    width: 277.333px;
+    height: 277.333px;
+    border: 1px solid black;
+}
+
+.shoe-img-like {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.shoe-img-price {
+    position: absolute;
+    bottom: 124px;
+    left: 0;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.shoe-desc p {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
